@@ -623,9 +623,9 @@ img {
 .footer-container {
 	display: flex;
 	align-items: baseline;
+	justify-content: space-between;
 }
 .footer-wrapper {
-	margin-right: 70px;
 }
 .footer__logo {
 	margin-bottom: 20px;
@@ -657,7 +657,6 @@ img {
 
 /* socials */
 .footer-socials {
-	margin-right: 93px;
 }
 .footer-socials__text {
 	font-weight: 700;
@@ -778,18 +777,12 @@ img {
 	position: absolute;
 	top: 50%;
 	left: 50%;
-
 	width: 528px;
-	height: 581px;
-
 	box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 	border-radius: 4px;
 	transform: translate(-50%, -50%) scale(1);
-
 	transition: transform 250ms var(--main-transition);
-
 	background-color: var(--main-white);
-
 	padding: 40px;
 }
 
@@ -834,6 +827,7 @@ img {
 }
 .form-field {
 }
+
 .form-field__label {
 	position: relative;
 	display: block;
@@ -884,6 +878,8 @@ img {
 .form-field__input:focus {
 }
 .form-field__comment {
+	display: block;
+
 	height: 120px;
 
 	padding: 12px 16px;
